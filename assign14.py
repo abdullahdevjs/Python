@@ -1,0 +1,5 @@
+# program to print odd number
+i=1
+while i<=19:
+    print(i,end=" ")
+    i+=2
