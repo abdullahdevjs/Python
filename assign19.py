@@ -11,3 +11,10 @@ s=0
 for i in range(1,n+1):
     s=s+i**2
 print("sum of square",s)
+
+#Q3 sum of first n cube 
+n=int(input("enter a number"))
+s=0
+for i in range(1,n+1):
+    s=s+i**3
+print("sum of cube",s)
