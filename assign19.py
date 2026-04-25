@@ -25,3 +25,10 @@ s=0
 for i in range(1,n+1):
     s=s+2*i-1
 print("sum of ",s)
+
+#Q5 even number sum
+n=int(input("enter a number"))
+s=0
+for i in range(1,n+1):
+    s=s+2*i
+print("sum of ",s)
