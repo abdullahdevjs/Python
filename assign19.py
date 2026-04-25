@@ -18,3 +18,10 @@ s=0
 for i in range(1,n+1):
     s=s+i**3
 print("sum of cube",s)
+
+#Q4 sum of odd first n natural number
+n=int(input("enter a number"))
+s=0
+for i in range(1,n+1):
+    s=s+2*i-1
+print("sum of ",s)
