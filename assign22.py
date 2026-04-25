@@ -12,3 +12,11 @@ for ch in s:
     if ch==' ':
         count+=1
 print("count=",count)
+
+#Q print unique digit in a integer
+n=input("enter a number")
+u=''
+for ch in n:
+    if ch not in u:
+        u+=ch
+print(u)
