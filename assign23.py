@@ -13,4 +13,7 @@ for i in range(1,m+1):
 n=int(input("enter a number"))
 for i in range(10,0,-1):
     print(n*i)
-    
+#Q print table on user input in reverse order
+n=int(input("enter a number"))
+for i in range(10,0,-1):
+    print(n,"x",i,'=',n*i)
