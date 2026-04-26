@@ -8,3 +8,9 @@ n=int(input("enter a number"))
 m=int(input("how many multiple you want"))
 for i in range(1,m+1):
     print(n*i)
+
+#Q first 10 multiple  in reverse order
+n=int(input("enter a number"))
+for i in range(10,0,-1):
+    print(n*i)
+    
