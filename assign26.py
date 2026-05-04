@@ -8,3 +8,11 @@ for ch in s:
         break
 else:
     print("string has only alphabet")
+
+# python script to check given chracter is present in astring or not
+s=input("enter a sring")
+ch=input("enter a charcter")
+if ch in s:
+    print("ch is present in s",ch)
+else:
+    print("ch is not present in s",ch)
