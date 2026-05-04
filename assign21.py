@@ -13,4 +13,4 @@ while n:
     r=n%10
     s=s+r
     n=n//10
-print("summ of digit",s)
+print("sum of digit",s)
